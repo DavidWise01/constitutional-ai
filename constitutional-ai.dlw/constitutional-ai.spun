@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of CONSTITUTIONAL AI
+node CAI · CAI · ⟦CONSTITUTIONAL AI:CAI:7dbd14⟧
+
+WHO   — CONSTITUTIONAL AI — the lineage-data sphere — Anthropic's public Constitutional-AI corpus, folded in and attributed
+WHAT  — Constitutional AI — a two-phase training method (SL-CAI then RL-CAI/RLAIF) in which a written constitution replaces most human harm-labels; the model self-critiques, self-revises, and learns from AI feedback to be harmless but non-evasive.
+WHERE — a 2022 Anthropic method: train an AI to be harmless using a written list of principles (a constitution) as the only human oversight, with the model critiquing and revising itself  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; harmlessness from AI feedback; the 2026 published constitution; political neutrality  Conductor / external anchor: ROOT0 (catalogued into UD0 · Universe David 0)
+WHY   — Don't label every bad answer by hand; write down the principles and let the model critique and revise itself against them. A supervised pass teaches it to fix its own answers; a reinforcement pass teaches it to prefer the better of two — with the constitution, not a human, casting the deciding vote.
+HOW   — Folded in from Anthropic's public git — the ConstitutionalHarmlessnessPaper repo (paper arXiv:2212.08073), the 2026 claude-constitution (CC0), and political-neutrality-eval (CC-BY-4.0). Rendered, not reproduced; no data files shipped.
+
+awareness — what the node knows of itself:
+  Where HH-RLHF is humans judging and the model-written evals are the model testing itself, Constitutional AI is the model REVISING itself — against a written constitution. The 2022 method became, by January 2026, a published 186 KB document released into the public domain. The lineage made legible.
+
+spoken token : staend-maex-lith   ·   hex : 7dbd14
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

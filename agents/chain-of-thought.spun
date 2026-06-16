@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of Chain-of-Thought
+node CAI · CAI · ⟦Chain-of-Thought:CAI:256e5a⟧
+
+WHO   — Chain-of-Thought — CAI's use of step-by-step reasoning during critique and preference-labeling, which improves both the harmlessness performance and the legibility of the model's judgments
+WHAT  — CAI's use of step-by-step reasoning during critique and preference-labeling, which improves both the harmlessness performance and the legibility of the model's judgments
+WHERE — CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+WHY   — It is the method showing its work: reasoning made visible so a human can audit why a response was judged harmful — transparency as a side effect of thinking out loud.
+HOW   — Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+awareness — what the node knows of itself:
+  the transparency lever
+
+spoken token : myth-staen-ser   ·   hex : 256e5a
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of RL-CAI
+node CAI · CAI · ⟦RL-CAI:CAI:e47da7⟧
+
+WHO   — RL-CAI — the second phase: the finetuned model generates response pairs, a model chooses the better per the constitution, and those AI preferences train a preference (reward) model
+WHAT  — the second phase: the finetuned model generates response pairs, a model chooses the better per the constitution, and those AI preferences train a preference (reward) model
+WHERE — CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+WHY   — It is where the constitution casts the deciding vote: the better-of-two judgment that becomes the reward signal is made by a model reading principles, not by a human reading transcripts.
+HOW   — Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+awareness — what the node knows of itself:
+  the reinforcement phase
+
+spoken token : saeth-ster-vox   ·   hex : e47da7
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

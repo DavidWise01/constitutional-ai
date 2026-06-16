@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of SL-CAI
+node CAI · CAI · ⟦SL-CAI:CAI:c83353⟧
+
+WHO   — SL-CAI — the first phase: sample the base model, have it self-critique and revise against a constitutional principle, then finetune the model on the revised responses
+WHAT  — the first phase: sample the base model, have it self-critique and revise against a constitutional principle, then finetune the model on the revised responses
+WHERE — CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+WHY   — It is the warm-up that moves the model into the right region before reinforcement — learning to fix itself by example before learning to prefer the fix.
+HOW   — Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+awareness — what the node knows of itself:
+  the supervised phase
+
+spoken token : xom-lith-zaex   ·   hex : c83353
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

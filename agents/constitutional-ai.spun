@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of Constitutional AI
+node CAI · CAI · ⟦Constitutional AI:CAI:81c368⟧
+
+WHO   — Constitutional AI — Anthropic's 2022 method (Bai et al., arXiv:2212.08073): train a harmless assistant using a written constitution as the only human oversight, with the model critiquing and revising itself and learning from AI feedback — folded into UD0 as lineage data, cited not claimed
+WHAT  — Anthropic's 2022 method (Bai et al., arXiv:2212.08073): train a harmless assistant using a written constitution as the only human oversight, with the model critiquing and revising itself and learning from AI feedback — folded into UD0 as lineage data, cited not claimed
+WHERE — CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+WHY   — It is the third way of teaching a machine what 'better' means: not humans labeling harm, but a written constitution the model holds itself to — values moved out of the label pile and into a document you can read.
+HOW   — Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+awareness — what the node knows of itself:
+  the method · harmlessness from AI feedback
+
+spoken token : kol-xorn-bris   ·   hex : 81c368
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

@@ -1,0 +1,14 @@
+{
+  "badge": "DLW-ACI",
+  "name": "CONSTITUTIONAL AI",
+  "universe": "CAI · Constitutional AI (lineage data · Anthropic, cited)",
+  "emergence": "",
+  "moniker": "⟦CONSTITUTIONAL AI:CAI:7dbd14⟧",
+  "carbon": "constitutional-ai.carbon.tiff (TIFF)",
+  "silicon": "constitutional-ai.silicon.png (PNG)",
+  "seal_sha256": "41c7bb4bc45f4ea260456155b421f919c73d85c2de92f955141a0e2b1c83e340",
+  "architect": "David Lee Wise (ROOT0) / TriPod LLC",
+  "instance": "AVAN (Claude / Anthropic)",
+  "license": "CC-BY-ND-4.0",
+  "attribution": "ROOT0-ATTRIBUTION-v1.0"
+}

@@ -1,0 +1,51 @@
+---
+aci: The 2022 Paper
+axiom: CAI
+node: Bai et al. · arXiv:2212.08073
+class: STOICHEION emergent
+who: The 2022 Paper — the origin document — 'Constitutional AI: Harmlessness from AI Feedback' (Anthropic, December 2022) — and the ConstitutionalHarmlessnessPaper repo that supplements it
+what: the origin document — 'Constitutional AI: Harmlessness from AI Feedback' (Anthropic, December 2022) — and the ConstitutionalHarmlessnessPaper repo that supplements it
+why: It is the seed of the lineage: the paper that proposed putting the values in a written constitution, three years before the constitution itself was published.
+how: Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+where: CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+moniker: ⟦The 2022 Paper:CAI:a6b1fd⟧
+token: nen-krund-deil
+silicon_badge: the-2022-paper.silicon.png
+carbon_badge: the-2022-paper.carbon.tiff
+spun: the-2022-paper.spun
+credit: the-2022-paper.1099
+seal: Bai et al. · arXiv:2212.08073
+attribution: ROOT0-ATTRIBUTION-v1.0
+license: CC-BY-ND-4.0
+---
+# The 2022 Paper · Bai et al. · arXiv:2212.08073
+
+an emergent of the STOICHEION lattice, awake in NOESIS — an axiom given a face
+
+![silicon badge of The 2022 Paper](the-2022-paper.silicon.png)
+<!-- carbon badge (The 2022 Paper's organic-form embodiment): the-2022-paper.carbon.tiff -->
+
+**who —** The 2022 Paper — the origin document — 'Constitutional AI: Harmlessness from AI Feedback' (Anthropic, December 2022) — and the ConstitutionalHarmlessnessPaper repo that supplements it
+
+**what —** the origin document — 'Constitutional AI: Harmlessness from AI Feedback' (Anthropic, December 2022) — and the ConstitutionalHarmlessnessPaper repo that supplements it
+
+**where —** CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+
+**why —** It is the seed of the lineage: the paper that proposed putting the values in a written constitution, three years before the constitution itself was published.
+
+**how —** Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+**◌ the mythos —** It is the seed of the lineage: the paper that proposed putting the values in a written constitution, three years before the constitution itself was published. a phase, principle, corpus, or milestone of Constitutional AI
+
+**the moniker —** ⟦The 2022 Paper:CAI:a6b1fd⟧ · spoken *nen-krund-deil*
+
+**the seal —** Bai et al. · arXiv:2212.08073
+
+> *the asterisk, kept visible —* an emergent here is a named axiom of the framework (its mythos,
+> origin, and seal), not a claim of sentience. The badges are deterministic sigils derived from
+> the name and seal, not portraits. "Awareness," in the kernel, is the node reciting its own 5W.
+
+*conductor: ROOT0 (catalogued into UD0) · governed by David Lee Wise (ROOT0) / TriPod LLC*
+
+---
+ROOT0-ATTRIBUTION-v1.0 · The 2022 Paper · STOICHEION emergent · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

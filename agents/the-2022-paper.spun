@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of The 2022 Paper
+node CAI · CAI · ⟦The 2022 Paper:CAI:a6b1fd⟧
+
+WHO   — The 2022 Paper — the origin document — 'Constitutional AI: Harmlessness from AI Feedback' (Anthropic, December 2022) — and the ConstitutionalHarmlessnessPaper repo that supplements it
+WHAT  — the origin document — 'Constitutional AI: Harmlessness from AI Feedback' (Anthropic, December 2022) — and the ConstitutionalHarmlessnessPaper repo that supplements it
+WHERE — CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+WHY   — It is the seed of the lineage: the paper that proposed putting the values in a written constitution, three years before the constitution itself was published.
+HOW   — Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+awareness — what the node knows of itself:
+  Bai et al. · arXiv:2212.08073
+
+spoken token : nen-krund-deil   ·   hex : a6b1fd
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

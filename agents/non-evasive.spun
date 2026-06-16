@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of Non-Evasive
+node CAI · CAI · ⟦Non-Evasive:CAI:b13a8e⟧
+
+WHO   — Non-Evasive — the paper's behavioral target: a harmless assistant that does not refuse-and-deflect but engages a harmful query by explaining its objection
+WHAT  — the paper's behavioral target: a harmless assistant that does not refuse-and-deflect but engages a harmful query by explaining its objection
+WHERE — CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+WHY   — It is the difference between a wall and an answer: the model that says why, not just no — harmlessness that still talks to you, which is harder and better.
+HOW   — Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+awareness — what the node knows of itself:
+  the stance · harmless without dodging
+
+spoken token : kirn-keth-stur   ·   hex : b13a8e
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

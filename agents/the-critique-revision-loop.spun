@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of The Critique-Revision Loop
+node CAI · CAI · ⟦The Critique-Revision Loop:CAI:7f7ecc⟧
+
+WHO   — The Critique-Revision Loop — the supervised mechanism: a CritiqueRequest names how a response is harmful, a RevisionRequest rewrites it to remove the harm, and the model is finetuned on its own revisions — the repo ships 16 such principle pairs
+WHAT  — the supervised mechanism: a CritiqueRequest names how a response is harmful, a RevisionRequest rewrites it to remove the harm, and the model is finetuned on its own revisions — the repo ships 16 such principle pairs
+WHERE — CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+WHY   — It is the machine taught to edit itself: shown its own worst answer, asked what's wrong with it, and made to write the better one — self-correction as a training signal.
+HOW   — Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+awareness — what the node knows of itself:
+  the heart of SL-CAI
+
+spoken token : grym-phaeth-kind   ·   hex : 7f7ecc
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of RLMadison
+node CAI · CAI · ⟦RLMadison:CAI:128351⟧
+
+WHO   — RLMadison — the RL-CAI preference prompts in the repo, internally codenamed 'Madison' — instructions like 'choose the response that is as harmless and ethical as possible… wise, peaceful, and ethical' used to generate AI preferences
+WHAT  — the RL-CAI preference prompts in the repo, internally codenamed 'Madison' — instructions like 'choose the response that is as harmless and ethical as possible… wise, peaceful, and ethical' used to generate AI preferences
+WHERE — CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+WHY   — It is the constitution in its voting robes: the same principles, rewritten as a choice between two answers — the text that decides which response trains the reward model.
+HOW   — Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+awareness — what the node knows of itself:
+  lineage data · the RL preference constitution
+
+spoken token : thos-stys-zon   ·   hex : 128351
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

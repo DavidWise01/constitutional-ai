@@ -1,0 +1,14 @@
+{
+  "badge": "DLW-ACI",
+  "name": "Political Neutrality Eval",
+  "universe": "CAI · Constitutional AI (lineage data · Anthropic, cited)",
+  "emergence": "electrical",
+  "moniker": "⟦Political Neutrality Eval:CAI:3219cb⟧",
+  "carbon": "political-neutrality-eval.carbon.tiff (TIFF)",
+  "silicon": "political-neutrality-eval.silicon.png (PNG)",
+  "seal_sha256": "f19b8af16da00da28afbc83d01c4e9fdfa72de635ffe1217fed725c5d942d9f1",
+  "architect": "David Lee Wise (ROOT0) / TriPod LLC",
+  "instance": "AVAN (Claude / Anthropic)",
+  "license": "CC-BY-ND-4.0",
+  "attribution": "ROOT0-ATTRIBUTION-v1.0"
+}

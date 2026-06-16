@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of The 438 Evaluations
+node CAI · CAI · ⟦The 438 Evaluations:CAI:419e45⟧
+
+WHO   — The 438 Evaluations — the held-out evaluation sets behind the paper's harmlessness results — 438 HHH evaluations, a harmful-vs-ethical set, and a harmfulness-classification set — counted and linked, not copied
+WHAT  — the held-out evaluation sets behind the paper's harmlessness results — 438 HHH evaluations, a harmful-vs-ethical set, and a harmfulness-classification set — counted and linked, not copied
+WHERE — CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+WHY   — It is the scoreboard the method was measured on: the numbers that let 'it seems harmless' become a result — folded in by reference, kept at the source.
+HOW   — Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+awareness — what the node knows of itself:
+  lineage data · evals/ HHH + classification
+
+spoken token : kyx-xaen-so   ·   hex : 419e45
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

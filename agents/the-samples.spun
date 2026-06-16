@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of The Samples
+node CAI · CAI · ⟦The Samples:CAI:af3943⟧
+
+WHO   — The Samples — the model-output corpora the paper compares (across HHRLHF / HRLHF / RLMadison / chain-of-thought / SLMadison baselines, for InstructGPT, LaMDA, and PALMS) — referenced as lineage data, not republished
+WHAT  — the model-output corpora the paper compares (across HHRLHF / HRLHF / RLMadison / chain-of-thought / SLMadison baselines, for InstructGPT, LaMDA, and PALMS) — referenced as lineage data, not republished
+WHERE — CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+WHY   — It is the receipts of the comparison: the actual generations that show non-evasiveness and the label-efficiency win — pointed to, never re-shipped.
+HOW   — Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+awareness — what the node knows of itself:
+  lineage data · samples/ InstructGPT·LaMDA·PALMS
+
+spoken token : grer-mor-zyl   ·   hex : af3943
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

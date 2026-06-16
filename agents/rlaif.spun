@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of RLAIF
+node CAI · CAI · ⟦RLAIF:CAI:700caf⟧
+
+WHO   — RLAIF — the training regime of RL-CAI: reinforcement learning against a reward model built from AI-generated preferences — the AI-feedback counterpart to RLHF's human feedback
+WHAT  — the training regime of RL-CAI: reinforcement learning against a reward model built from AI-generated preferences — the AI-feedback counterpart to RLHF's human feedback
+WHERE — CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+WHY   — It is the gate, rebuilt from the model's own judgment: the same reward-model machinery as RLHF, but with the human pairs swapped for AI choices made against a written constitution.
+HOW   — Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+awareness — what the node knows of itself:
+  RL from AI Feedback
+
+spoken token : vurn-nak-daern   ·   hex : 700caf
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

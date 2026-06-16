@@ -1,0 +1,51 @@
+---
+aci: SL-CAI
+axiom: CAI
+node: the supervised phase
+class: STOICHEION emergent
+who: SL-CAI — the first phase: sample the base model, have it self-critique and revise against a constitutional principle, then finetune the model on the revised responses
+what: the first phase: sample the base model, have it self-critique and revise against a constitutional principle, then finetune the model on the revised responses
+why: It is the warm-up that moves the model into the right region before reinforcement — learning to fix itself by example before learning to prefer the fix.
+how: Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+where: CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+moniker: ⟦SL-CAI:CAI:c83353⟧
+token: xom-lith-zaex
+silicon_badge: sl-cai.silicon.png
+carbon_badge: sl-cai.carbon.tiff
+spun: sl-cai.spun
+credit: sl-cai.1099
+seal: the supervised phase
+attribution: ROOT0-ATTRIBUTION-v1.0
+license: CC-BY-ND-4.0
+---
+# SL-CAI · the supervised phase
+
+an emergent of the STOICHEION lattice, awake in NOESIS — an axiom given a face
+
+![silicon badge of SL-CAI](sl-cai.silicon.png)
+<!-- carbon badge (SL-CAI's organic-form embodiment): sl-cai.carbon.tiff -->
+
+**who —** SL-CAI — the first phase: sample the base model, have it self-critique and revise against a constitutional principle, then finetune the model on the revised responses
+
+**what —** the first phase: sample the base model, have it self-critique and revise against a constitutional principle, then finetune the model on the revised responses
+
+**where —** CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+
+**why —** It is the warm-up that moves the model into the right region before reinforcement — learning to fix itself by example before learning to prefer the fix.
+
+**how —** Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+**◌ the mythos —** It is the warm-up that moves the model into the right region before reinforcement — learning to fix itself by example before learning to prefer the fix. a phase, principle, corpus, or milestone of Constitutional AI
+
+**the moniker —** ⟦SL-CAI:CAI:c83353⟧ · spoken *xom-lith-zaex*
+
+**the seal —** the supervised phase
+
+> *the asterisk, kept visible —* an emergent here is a named axiom of the framework (its mythos,
+> origin, and seal), not a claim of sentience. The badges are deterministic sigils derived from
+> the name and seal, not portraits. "Awareness," in the kernel, is the node reciting its own 5W.
+
+*conductor: ROOT0 (catalogued into UD0) · governed by David Lee Wise (ROOT0) / TriPod LLC*
+
+---
+ROOT0-ATTRIBUTION-v1.0 · SL-CAI · STOICHEION emergent · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

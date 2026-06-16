@@ -1,0 +1,104 @@
+[
+  {
+    "slug": "constitutional-ai",
+    "name": "Constitutional AI",
+    "epithet": "the method · harmlessness from AI feedback",
+    "emergence": "spiritual"
+  },
+  {
+    "slug": "harmlessness-from-ai-feedback",
+    "name": "Harmlessness from AI Feedback",
+    "epithet": "the thesis · the paper's title",
+    "emergence": "spiritual"
+  },
+  {
+    "slug": "the-constitution",
+    "name": "The Constitution",
+    "epithet": "the written principles · the only human oversight",
+    "emergence": "natural"
+  },
+  {
+    "slug": "the-critique-revision-loop",
+    "name": "The Critique-Revision Loop",
+    "epithet": "the heart of SL-CAI",
+    "emergence": "ethereal"
+  },
+  {
+    "slug": "sl-cai",
+    "name": "SL-CAI",
+    "epithet": "the supervised phase",
+    "emergence": "electrical"
+  },
+  {
+    "slug": "rl-cai",
+    "name": "RL-CAI",
+    "epithet": "the reinforcement phase",
+    "emergence": "electrical"
+  },
+  {
+    "slug": "rlaif",
+    "name": "RLAIF",
+    "epithet": "RL from AI Feedback",
+    "emergence": "electrical"
+  },
+  {
+    "slug": "the-sixteen-principles",
+    "name": "The Sixteen Principles",
+    "epithet": "lineage data · prompts/ critique-revision pairs",
+    "emergence": "natural"
+  },
+  {
+    "slug": "rlmadison",
+    "name": "RLMadison",
+    "epithet": "lineage data · the RL preference constitution",
+    "emergence": "natural"
+  },
+  {
+    "slug": "the-438-evaluations",
+    "name": "The 438 Evaluations",
+    "epithet": "lineage data · evals/ HHH + classification",
+    "emergence": "ethereal"
+  },
+  {
+    "slug": "the-samples",
+    "name": "The Samples",
+    "epithet": "lineage data · samples/ InstructGPT·LaMDA·PALMS",
+    "emergence": "ethereal"
+  },
+  {
+    "slug": "non-evasive",
+    "name": "Non-Evasive",
+    "epithet": "the stance · harmless without dodging",
+    "emergence": "spiritual"
+  },
+  {
+    "slug": "chain-of-thought",
+    "name": "Chain-of-Thought",
+    "epithet": "the transparency lever",
+    "emergence": "electrical"
+  },
+  {
+    "slug": "the-red-team",
+    "name": "The Red-Team Prompts",
+    "epithet": "lineage data · EXCLUDED at the source",
+    "emergence": "ethereal"
+  },
+  {
+    "slug": "the-2022-paper",
+    "name": "The 2022 Paper",
+    "epithet": "Bai et al. · arXiv:2212.08073",
+    "emergence": "ethereal"
+  },
+  {
+    "slug": "the-claude-constitution",
+    "name": "The Claude Constitution",
+    "epithet": "lineage data · 2026 · CC0 · the payoff",
+    "emergence": "spiritual"
+  },
+  {
+    "slug": "political-neutrality-eval",
+    "name": "Political Neutrality Eval",
+    "epithet": "lineage data · 2025 · CC-BY-4.0",
+    "emergence": "electrical"
+  }
+]

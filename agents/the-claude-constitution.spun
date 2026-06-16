@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of The Claude Constitution
+node CAI · CAI · ⟦The Claude Constitution:CAI:14e928⟧
+
+WHO   — The Claude Constitution — the actual published constitution (anthropics/claude-constitution, January 2026): a 186 KB foundational document describing the values Claude is meant to embody, released into the public domain under CC0 — the legibility promise of 2022 made real
+WHAT  — the actual published constitution (anthropics/claude-constitution, January 2026): a 186 KB foundational document describing the values Claude is meant to embody, released into the public domain under CC0 — the legibility promise of 2022 made real
+WHERE — CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+WHY   — It is the lineage closing its loop: the method that said 'write the values down' became, by 2026, a document anyone can read and reuse — the constitution finally on the table, not just in the training.
+HOW   — Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+awareness — what the node knows of itself:
+  lineage data · 2026 · CC0 · the payoff
+
+spoken token : sek-kraem-grond   ·   hex : 14e928
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0

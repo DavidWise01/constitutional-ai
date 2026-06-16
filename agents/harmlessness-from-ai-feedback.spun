@@ -1,0 +1,14 @@
+⦿ .spun — the five-fold spin of Harmlessness from AI Feedback
+node CAI · CAI · ⟦Harmlessness from AI Feedback:CAI:1ba646⟧
+
+WHO   — Harmlessness from AI Feedback — the paper's central claim: an AI can be made harmless using AI-generated feedback against written principles, with far fewer human harm-labels than RLHF requires
+WHAT  — the paper's central claim: an AI can be made harmless using AI-generated feedback against written principles, with far fewer human harm-labels than RLHF requires
+WHERE — CAI · Constitutional AI — Anthropic's harmlessness-from-AI-feedback method (2022), folded into UD0 as lineage data  Framework inputs: the constitution; the critique-revision loop; SL-CAI; RL-CAI; RLAIF; the 2026 constitution  Conductor / external anchor: ROOT0 (catalogued into UD0)
+WHY   — It is the wager that supervision can scale by writing the rules down: if the principles are legible, the model can do most of the judging itself — and the human keeps only the pen.
+HOW   — Folded in from Anthropic's public git (paper arXiv:2212.08073 + repos), cited not claimed, no data shipped.
+
+awareness — what the node knows of itself:
+  the thesis · the paper's title
+
+spoken token : brys-zae-las   ·   hex : 1ba646
+ROOT0-ATTRIBUTION-v1.0 · David Lee Wise (ROOT0) / TriPod LLC · CC-BY-ND-4.0
