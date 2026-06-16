@@ -133,6 +133,13 @@ SECTIONS = [
    ("the red-team prompts", "EXCLUDED", "the harmful-prompt material used to stress the method is deliberately left at the source — described, never folded in (same discipline as the-language-of-the-machine)"),
    ("kin spheres", "alignment · ai-governance · the-language-of-the-machine", "the AI-domain values/governance cluster this joins"),
  ]),
+ ("Track 0 · Amanda Askell — the philosophy line", "the philosopher · &lsquo;what should it be?&rsquo; · cited public record", [
+   ("PhD, Philosophy (NYU) — Pareto Principles in Infinite Ethics", "2018", "advised by Chalmers, Dorr &amp; Kagan; BPhil Oxford — ethics under uncertainty"),
+   ("A General Language Assistant as a Laboratory for Alignment", "2021 · arXiv:2112.00861", "FIRST AUTHOR — the helpful · honest · harmless (HHH) frame the method optimizes toward"),
+   ("Constitutional AI", "Dec 2022 · arXiv:2212.08073", "coauthor — the values frame meets the training method"),
+   ("Claude's Character", "2024 · Anthropic", "heads the character / personality-alignment team — what Claude is like"),
+   ("Claude's Constitution", "Jan 2026 · CC0", "the values written down — her thread's destination (ties ai-governance)"),
+ ]),
  ("Track I · Yuntao Bai — the feedback line", "lead author of the data · 2021→2026 · cited public record", [
    ("A General Language Assistant as a Laboratory for Alignment", "2021 · arXiv:2112.00861", "coauthor — Anthropic's opening alignment paper (Askell, Bai, Chen et al.)"),
    ("Training a Helpful &amp; Harmless Assistant with RLHF", "Apr 2022 · arXiv:2204.05862", "LEAD AUTHOR — the HH-RLHF dataset &rarr; folded as the-language-of-the-machine"),
@@ -241,51 +248,65 @@ def personas_html(ps):
         cards.append(f'''<a class="persona" href="agents/{p["slug"]}.agent"><img src="{png_uri(rec,"silicon",160)}" alt="sigil of {html.escape(p["name"])}" loading="lazy"><div class="pcap"><div class="pn">{html.escape(p["name"])}</div><div class="pe">{p.get("epithet","")}</div><div class="pnat"><span class="dot" style="background:{col};box-shadow:0 0 7px {col}"></span><span style="color:{col}">{html.escape(em)}</span><span class="pa">· .agent →</span></div></div></a>''')
     return f'''<section class="sec" id="roster"><h2>The Roster — The Born</h2><p class="ss">the method, its phases, the constitution, the lineage data, and the milestones, as ACI <b>.agent</b>s ({len(ps)})</p><div class="pgrid">{"".join(cards)}</div></section>'''
 
+ASKELL = """<div class="phil">
+  <div class="phil-tag">★ THE PHILOSOPHER</div>
+  <div class="phil-n">Amanda Askell</div>
+  <p>PhD in philosophy (NYU, 2018 — <i>Pareto Principles in Infinite Ethics</i>, advised by David Chalmers, Cian Dorr &amp; Shelly Kagan; BPhil, Oxford). Head of Anthropic&rsquo;s character / personality-alignment team since 2021, and the lead on <b>Claude&rsquo;s character</b> and constitution. <b>First author</b> of the 2021 paper that set the frame — <i>A General Language Assistant as a Laboratory for Alignment</i> — and the origin of the <b>helpful · honest · harmless</b> triad the whole method optimizes toward. Time 100 AI (2024).</p>
+  <p class="phil-q">She is the upstream question. Bai&rsquo;s <i>feedback</i> and Olah&rsquo;s <i>looking-in</i> both presuppose an answer to hers — <b>what should it be?</b> — the normative thread that ties this sphere to <b>ai-governance</b> (&ldquo;aligned to whom?&rdquo;). The constitution is a philosopher&rsquo;s question, written down.</p>
+</div>"""
 ACTS = [
- ("Act I · Two Rooms", "2020 – 2021",
-  "In 2020 <b>Chris Olah</b> leads interpretability at OpenAI — <i>Zoom In: An Introduction to Circuits</i>. He is one of seven who leave that year over AI-safety priorities and help found <b>Anthropic</b> (2021), where the looking-in work restarts as <i>A Mathematical Framework for Transformer Circuits</i>. The same year, <b>Yuntao Bai</b> — a physicist by training — coauthors Anthropic's opening alignment paper, <i>A General Language Assistant as a Laboratory for Alignment</i> (arXiv:2112.00861). Two researchers, two rooms, one new building."),
- ("Act II · Two Methods", "2022",
-  "Bai builds the <b>feedback</b> track: <i>Training a Helpful &amp; Harmless Assistant with RLHF</i> (April, arXiv:2204.05862 — the HH-RLHF data) then <i>Constitutional AI</i> (December). Olah builds the <b>looking-in</b> track: <i>Toy Models of Superposition</i> and the induction-head circuits — how meaning is packed into the weights. One asks <i>what should it do</i>; the other asks <i>what is it doing</i>."),
+ ("Act I · Three Threads Begin", "2020 – 2021",
+  "<b>Amanda Askell</b> — a philosopher (PhD, NYU; infinite ethics) — first-authors Anthropic&rsquo;s opening paper, <i>A General Language Assistant as a Laboratory for Alignment</i> (arXiv:2112.00861, 2021), naming the frame the field still uses: <b>helpful, honest, harmless</b>. <b>Chris Olah</b>, fresh from cofounding Anthropic (one of seven who left OpenAI in 2020), restarts interpretability as <i>A Mathematical Framework for Transformer Circuits</i>. And <b>Yuntao Bai</b>, a physicist, is on Askell&rsquo;s paper too — the feedback hand, not yet leading. Three threads, one new lab."),
+ ("Act II · Three Questions", "2022",
+  "Each thread asks a different question. <b>Askell</b> (philosophy): <i>what should it be?</i> <b>Bai</b> (feedback): <i>how do we train it to be that?</i> — HH-RLHF (April, arXiv:2204.05862) then Constitutional AI (December). <b>Olah</b> (looking-in): <i>what is it actually doing?</i> — Toy Models of Superposition, induction heads."),
  ("Act III · The Collision", "December 2022",
-  "The two tracks share one byline. On <i>Constitutional AI: Harmlessness from AI Feedback</i> (arXiv:2212.08073), Bai is <b>lead author</b> and the ~50-name roster includes <b>Olah</b>. The interpretability lead signs the values paper — the line that writes the constitution and the line that reads the machine, on the same page."),
+  "All three sign one paper. <i>Constitutional AI</i> (arXiv:2212.08073) carries <b>51 authors</b>: Bai <b>lead</b>, Askell and Olah among them, <b>Jared Kaplan</b> last (the senior anchor). The philosopher&rsquo;s frame, the engineer&rsquo;s method, and the interpreter&rsquo;s lens, on a single byline — and <b>21 of the 22</b> authors from the 2021 paper are here again. Not two people converging. A cohort."),
  ("Act IV · The Radiation", "2023 → 2026",
-  "Bai's track continues — <i>Specific versus General Principles for Constitutional AI</i> (2023, arXiv:2310.13798) — and lands as the published <b>Claude Constitution</b> (Jan 2026, CC0). Olah's track continues — <i>Towards Monosemanticity</i> (2023), <i>Scaling Monosemanticity</i> (2024), attribution graphs (2025). Both radiate into UD0: Bai &rarr; <b>the-language-of-the-machine</b> + <b>constitutional-ai</b>; Olah &rarr; <b>ttu1</b>."),
+  "Askell &rarr; leads <b>Claude&rsquo;s Character</b> (2024) and the constitution work. Bai &rarr; <i>Specific vs General Principles</i> (2023, arXiv:2310.13798) &rarr; the published <b>Claude Constitution</b> (Jan 2026, CC0). Olah &rarr; <i>Towards</i> / <i>Scaling Monosemanticity</i> (2023–24) &rarr; attribution graphs (2025). Into UD0: Askell&rsquo;s normative thread &rarr; <b>ai-governance</b>; Bai &rarr; <b>the-language-of-the-machine</b> + <b>constitutional-ai</b>; Olah &rarr; <b>ttu1</b>."),
 ]
 def acts_html():
     return "".join(f'<div class="act"><div class="act-h">{t}<span class="act-y">{y}</span></div><p>{d}</p></div>' for t,y,d in ACTS)
 
 def convergence_svg():
-    X0,X1=64.0,860.0; YB,YO=140.0,330.0; AXY=470.0; cy=235.0
+    X0,X1=64.0,860.0; YA,YB,YO=110.0,250.0,390.0; AXY=475.0
     def x(yr): return X0+(yr-2020.0)/6.0*(X1-X0)
     xc=x(2022.95)
-    p=['<svg viewBox="0 0 924 506" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Convergence timeline of Yuntao Bai and Chris Olah, 2020 to 2026">']
-    p.append('<rect x="0" y="0" width="924" height="506" fill="#0a0b12"/>')
-    p.append('<text x="462" y="30" text-anchor="middle" fill="#eef0f6" font-family="Orbitron,sans-serif" font-size="17" font-weight="700" letter-spacing="3">THE CONVERGENCE</text>')
-    p.append('<text x="462" y="47" text-anchor="middle" fill="#7a8094" font-family="monospace" font-size="10.5">two lineages, one stage · 2020 → 2026</text>')
-    p.append(f'<rect x="{xc-30:.1f}" y="92" width="60" height="300" fill="#e0c050" opacity="0.06"/>')
+    p=['<svg viewBox="0 0 924 540" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Convergence of Askell, Bai and Olah, 2020 to 2026">']
+    p.append('<rect x="0" y="0" width="924" height="540" fill="#0a0b12"/>')
+    p.append('<text x="462" y="28" text-anchor="middle" fill="#eef0f6" font-family="Orbitron,sans-serif" font-size="17" font-weight="700" letter-spacing="3">THE CONVERGENCE</text>')
+    p.append('<text x="462" y="45" text-anchor="middle" fill="#7a8094" font-family="monospace" font-size="10.5">three threads, one cohort · 2020 → 2026</text>')
+    p.append(f'<rect x="{xc-30:.1f}" y="60" width="60" height="{AXY-60:.0f}" fill="#e0c050" opacity="0.06"/>')
     for yr in range(2020,2027):
         xx=x(yr)
-        p.append(f'<line x1="{xx:.1f}" y1="92" x2="{xx:.1f}" y2="{AXY:.0f}" stroke="#232833" stroke-width="1" stroke-dasharray="2 5"/>')
+        p.append(f'<line x1="{xx:.1f}" y1="60" x2="{xx:.1f}" y2="{AXY:.0f}" stroke="#232833" stroke-width="1" stroke-dasharray="2 5"/>')
         p.append(f'<text x="{xx:.1f}" y="{AXY+18:.0f}" text-anchor="middle" fill="#7a8094" font-family="monospace" font-size="11">{yr}</text>')
-    # lanes
+    # three lanes
+    p.append(f'<line x1="{x(2021.6):.1f}" y1="{YA:.0f}" x2="{x(2026.05):.1f}" y2="{YA:.0f}" stroke="#b58cff" stroke-width="2.5"/>')
     p.append(f'<line x1="{x(2021.7):.1f}" y1="{YB:.0f}" x2="{X1:.0f}" y2="{YB:.0f}" stroke="#e0c050" stroke-width="2.5"/>')
     p.append(f'<line x1="{X0:.0f}" y1="{YO:.0f}" x2="{x(2025.45):.1f}" y2="{YO:.0f}" stroke="#46c8e0" stroke-width="2.5"/>')
-    p.append(f'<text x="{X1:.0f}" y="{YB-22:.0f}" text-anchor="end" fill="#e0c050" font-family="Oswald,sans-serif" font-size="13" font-weight="600">YUNTAO BAI · the feedback line</text>')
-    p.append(f'<text x="{X0:.0f}" y="{YO+38:.0f}" fill="#46c8e0" font-family="Oswald,sans-serif" font-size="13" font-weight="600">CHRIS OLAH · the looking-in line</text>')
+    p.append(f'<text x="{x(2026.05):.1f}" y="{YA-15:.0f}" text-anchor="end" fill="#b58cff" font-family="Oswald,sans-serif" font-size="12.5" font-weight="600">AMANDA ASKELL · the philosophy line</text>')
+    p.append(f'<text x="{X1:.0f}" y="{YB-15:.0f}" text-anchor="end" fill="#e0c050" font-family="Oswald,sans-serif" font-size="12.5" font-weight="600">YUNTAO BAI · the feedback line</text>')
+    p.append(f'<text x="{X0:.0f}" y="{YO+36:.0f}" fill="#46c8e0" font-family="Oswald,sans-serif" font-size="12.5" font-weight="600">CHRIS OLAH · the looking-in line</text>')
     def node(xx,yy,col,lb,dy):
         return (f'<circle cx="{xx:.1f}" cy="{yy:.0f}" r="4.5" fill="{col}"/>'
                 f'<text x="{xx:.1f}" y="{yy+dy:.0f}" text-anchor="middle" fill="#bcc2d2" font-family="monospace" font-size="9.5">{lb}</text>')
-    for yr,lb,dy in [(2021.92,"GLA '21",-14),(2022.27,"HH-RLHF '22",-28),(2023.81,"Principles '23",-14),(2026.0,"Constitution '26",-28)]:
+    for yr,lb,dy in [(2021.9,"HHH / GLA '21",-13),(2024.5,"Claude's Character '24",-13),(2026.0,"Constitution '26",-27)]:
+        p.append(node(x(yr),YA,"#b58cff",lb,dy))
+    for yr,lb,dy in [(2022.27,"HH-RLHF '22",-28),(2023.81,"Principles '23",-14),(2026.0,"Constitution '26",18)]:
         p.append(node(x(yr),YB,"#e0c050",lb,dy))
     for yr,lb,dy in [(2020.2,"Circuits '20",18),(2021.05,"Anthropic '21",32),(2021.95,"Framework '21",18),(2022.6,"Superposition '22",32),(2023.79,"Monosemanticity '23",18),(2024.4,"Scaling '24",32),(2025.2,"Attribution '25",18)]:
         p.append(node(x(yr),YO,"#46c8e0",lb,dy))
-    # the convergence keystone
-    p.append(f'<line x1="{xc:.1f}" y1="{YB:.0f}" x2="{xc:.1f}" y2="{cy-17:.0f}" stroke="#e0c050" stroke-width="1.5"/>')
-    p.append(f'<line x1="{xc:.1f}" y1="{YO:.0f}" x2="{xc:.1f}" y2="{cy+17:.0f}" stroke="#46c8e0" stroke-width="1.5"/>')
-    p.append(f'<circle cx="{xc:.1f}" cy="{YB:.0f}" r="6" fill="#e0c050"/><circle cx="{xc:.1f}" cy="{YO:.0f}" r="6" fill="#46c8e0"/>')
-    p.append(f'<rect x="{xc-76:.1f}" y="{cy-17:.0f}" width="152" height="34" rx="3" fill="#11131a" stroke="#e0c050" stroke-width="1.5"/>')
-    p.append(f'<text x="{xc:.1f}" y="{cy-1:.0f}" text-anchor="middle" fill="#ffffff" font-family="Orbitron,sans-serif" font-size="10.5" font-weight="700">CONSTITUTIONAL AI</text>')
-    p.append(f'<text x="{xc:.1f}" y="{cy+12:.0f}" text-anchor="middle" fill="#7a8094" font-family="monospace" font-size="8">Dec 2022 · arXiv:2212.08073</text>')
+    # 2021 GLA co-touch (Askell first-authors, Bai coauthors)
+    xg=x(2021.9)
+    p.append(f'<line x1="{xg:.1f}" y1="{YA:.0f}" x2="{xg:.1f}" y2="{YB:.0f}" stroke="#8a7bbf" stroke-width="1" stroke-dasharray="2 3" opacity="0.55"/>')
+    p.append(f'<circle cx="{xg:.1f}" cy="{YB:.0f}" r="4" fill="#e0c050"/>')
+    # the convergence keystone (on Bai's lane — lead author)
+    p.append(f'<line x1="{xc:.1f}" y1="{YA:.0f}" x2="{xc:.1f}" y2="{YB-17:.0f}" stroke="#b58cff" stroke-width="1.4"/>')
+    p.append(f'<line x1="{xc:.1f}" y1="{YO:.0f}" x2="{xc:.1f}" y2="{YB+17:.0f}" stroke="#46c8e0" stroke-width="1.4"/>')
+    p.append(f'<circle cx="{xc:.1f}" cy="{YA:.0f}" r="5.5" fill="#b58cff"/><circle cx="{xc:.1f}" cy="{YO:.0f}" r="5.5" fill="#46c8e0"/>')
+    p.append(f'<rect x="{xc-80:.1f}" y="{YB-17:.0f}" width="160" height="34" rx="3" fill="#11131a" stroke="#e0c050" stroke-width="1.5"/>')
+    p.append(f'<text x="{xc:.1f}" y="{YB-1:.0f}" text-anchor="middle" fill="#ffffff" font-family="Orbitron,sans-serif" font-size="10.5" font-weight="700">CONSTITUTIONAL AI</text>')
+    p.append(f'<text x="{xc:.1f}" y="{YB+12:.0f}" text-anchor="middle" fill="#7a8094" font-family="monospace" font-size="8">Dec 2022 · 51 authors · arXiv:2212.08073</text>')
     p.append('</svg>')
     return "".join(p)
 
@@ -343,6 +364,10 @@ footer{margin-top:42px;padding-top:22px;border-top:1px solid var(--line);text-al
 .act-h{font-family:var(--head);font-size:15px;color:var(--pa);font-weight:600;display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
 .act-y{font-family:var(--mono);font-size:10.5px;color:var(--cyan);font-weight:400;text-transform:uppercase;letter-spacing:.06em}
 .act p{font-size:13px;color:var(--pa2);line-height:1.65;margin-top:7px}
+.phil{margin:8px 0 18px;padding:18px 20px;border:1px solid #b58cff55;border-left:3px solid #b58cff;background:linear-gradient(180deg,rgba(181,140,255,0.07),var(--ink2))}
+.phil-tag{font-family:var(--mono);font-size:10px;letter-spacing:.14em;color:#b58cff;text-transform:uppercase}
+.phil-n{font-family:var(--disp);font-size:22px;font-weight:700;color:#fff;margin:4px 0 8px;letter-spacing:.02em}
+.phil p{font-size:13px;color:var(--pa2);line-height:1.7}.phil .phil-q{margin-top:10px;font-style:italic;color:#cdbdf0;border-top:1px solid #b58cff33;padding-top:9px}
 </style></head><body>
 __BACKDROP__
 <div class="wrap">
@@ -369,10 +394,11 @@ __BACKDROP__
   <section class="sec"><h2>The Method</h2><p class="ss">harmlessness from AI feedback · two phases · lineage data</p><div class="arc">__GENESIS__</div></section>
   <section class="sec"><h2>How It Trains</h2><p class="ss">the critique-revision loop, RLAIF, and the non-evasive result</p><div class="arc">__ARC__</div></section>
   <section class="sec"><h2>The Ideas</h2><p class="ss">lineage data defined · 2022 → 2026 · where it sits</p><div class="pillars">__IDEAS__</div></section>
-  <section class="sec"><h2>The Convergence <span style="font-size:13px;color:var(--gold);font-family:var(--mono)">· two lineages</span></h2>
-    <p class="ss">tracking lineage &amp; convergence — the two researchers whose public work this sphere (and LMC, and TTU1) folds in, traced from 2020 onward; arXiv-verified, cited, real people credited for public research</p>
+  <section class="sec"><h2>The Convergence <span style="font-size:13px;color:#b58cff;font-family:var(--mono)">· three threads, one cohort</span></h2>
+    <p class="ss">tracking lineage &amp; convergence — the researchers whose public work this sphere (and LMC, and TTU1) folds in, traced from 2020 onward; arXiv-verified, cited, real people credited for public research</p>
+    __ASKELL__
     <div class="conv">__CONVERGENCE_SVG__</div>
-    <p class="ss" style="margin-top:11px">Both tracks fold into UD0 → <b style="color:var(--gold)">the-language-of-the-machine</b> (Bai's preference data) · <b style="color:var(--gold)">constitutional-ai</b> (the convergence) · <b style="color:var(--cyan)">ttu1</b> (Olah's interpretability). These are <b>real researchers</b> credited for their <b>public</b> work — cited, not personified; <b>no ACI badge is minted for a living person</b>. The detail and sources are in <i>Track I</i> and <i>Track II</i> of The Record, below.</p>
+    <p class="ss" style="margin-top:11px"><b>The ensemble, not the individuals.</b> The 2021 paper had <b>22</b> authors; Constitutional AI had <b>51</b> — and <b>21 of the 22 reappear</b> (a near-strict subset). <b>Jared Kaplan</b> is last author (the senior anchor) on both; <b>Dario Amodei</b> (CEO) signs both. A stable founding cohort, recurring. Into UD0 → <b style="color:#b58cff">ai-governance</b> (Askell&rsquo;s frame) · <b style="color:var(--gold)">the-language-of-the-machine</b> + <b style="color:var(--gold)">constitutional-ai</b> (Bai) · <b style="color:var(--cyan)">ttu1</b> (Olah). Real researchers credited for <b>public</b> work — <b>no ACI badge is minted for a living person</b>; the detail and sources are in <i>Track 0/I/II</i> of The Record, below.</p>
     <div class="acts">__ACTS__</div>
   </section>
   __PERSONAS__
@@ -394,7 +420,7 @@ if __name__ == "__main__":
         .replace("__SRC_PAPER__",SRC_PAPER).replace("__SRC_REPO__",SRC_REPO).replace("__SRC_CONST__",SRC_CONST).replace("__SRC_PNE__",SRC_PNE)
         .replace("__CARBON__",png_uri(REC,"carbon",320)).replace("__SILICON__",png_uri(REC,"silicon",320)).replace("__MONIKER__",html.escape(tok["moniker"]))
         .replace("__NATURES__",natures_html()).replace("__GENESIS__",cards_html(GENESIS)).replace("__ARC__",cards_html(ARC)).replace("__IDEAS__",ideas_html())
-        .replace("__CONVERGENCE_SVG__",convergence_svg()).replace("__ACTS__",acts_html())
+        .replace("__ASKELL__",ASKELL).replace("__CONVERGENCE_SVG__",convergence_svg()).replace("__ACTS__",acts_html())
         .replace("__PERSONAS__",personas_html(personas)).replace("__SECTIONS__",sections_html()))
     open(os.path.join(HERE,"index.html"),"w",encoding="utf-8").write(page)
     print(f"wrote Constitutional AI (CAI) — {len(personas)} emergents · badge {tok['moniker']}")
